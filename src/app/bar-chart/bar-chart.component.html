@@ -1,0 +1,11 @@
+<div class="container">
+        <div style="display:block">
+            <canvas baseChart
+            [datasets]="barChartData"
+            [labels]="barChartLabels"
+            [options]="barChartOptions"
+            [legend]="barChartLegend"
+            [chartType]="barChartType"></canvas>
+        </div>
+    <button class="btn btn-primary ml-right" (click)="updateChart()">Update</button>
+</div>
